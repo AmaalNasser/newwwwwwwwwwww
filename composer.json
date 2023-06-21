@@ -1,0 +1,21 @@
+{
+    "name": "amaal/contact",
+    "description": "Your package description",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Amaal\\Contact\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amaal\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
